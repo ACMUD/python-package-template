@@ -1,6 +1,6 @@
 import sys
 def fact(n):
-    return fact(n-1)+fact(n-2) if n>=1 else 1
+    return n*fact(n-1) if n>=1 else 1
 
 
 def main():
